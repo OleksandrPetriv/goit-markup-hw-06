@@ -5,10 +5,11 @@
 .portfolio-list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 48px;
 }
 
-.portfilio-item {
+.portfolio-item {
     width: 100%;
 }
 

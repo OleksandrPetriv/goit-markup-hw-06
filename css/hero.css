@@ -11,6 +11,16 @@
     background-size: cover;
 }
 
+@media screen and (min-resolution: 192dpi) {
+    .hero {
+        background-image:
+        lineargradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url("../images/hero-bg-2x.jpg");
+    }
+}
+
 .hero-title {
     max-width: 216px;
     margin: 0 auto;
@@ -39,16 +49,6 @@
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
-}
-
-.hero-title {
-    max-width: 216px;
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
 }
 
 @media screen and (min-resolution: 192dpi) {

@@ -23,7 +23,8 @@
  
 .modal {
     min-height: 584px;
-    width: 408px;
+    width: calc(100% - 32px);
+    max-width: 408px;
     position: relative;
     padding: 72px 24px 24px;
     background-color: #fcfcfc;

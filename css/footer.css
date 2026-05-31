@@ -222,7 +222,7 @@
   }
 
   .footer-container {
-    width: 1158px;
+    max-width: 1158px;
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;

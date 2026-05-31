@@ -23,6 +23,7 @@
 
 .team-item {
     background-color: #ffffff;
+    width: 264px;
     border-radius: 0 0 4px 4px;
     box-shadow:
     0 2px 1px rgba(46, 47, 66, 0.08),

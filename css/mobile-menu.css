@@ -68,9 +68,10 @@
 }
 
 .mobile-phone {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #4d5ae5;
 }
 
@@ -78,6 +79,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -121,6 +123,9 @@
 
 @media screen and (min-width: 768px) {
   .menu-open-btn {
+    display: none;
+  }
+  .mobile-menu {
     display: none;
   }
 }

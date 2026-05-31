@@ -21,7 +21,7 @@
   margin-bottom: 16px;
 
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -180,7 +180,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -216,23 +215,25 @@
 }
 
 @media screen and (min-width: 1158px) {
-
   .footer {
     padding: 100px 0;
   }
-
+  .footer-form {
+    align-items: center;
+  }
   .footer-container {
     max-width: 1158px;
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;
   }
-
   .footer-content {
     margin-right: 120px;
   }
-
   .social {
     margin-right: 80px;
+  }
+  .footer-email-t {
+    margin-left: auto;
   }
 }

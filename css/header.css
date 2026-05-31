@@ -45,10 +45,6 @@
     margin-left: auto;
 }
 
-.header-container {
-    gap: 120px;
-}
-
 .nav-list {
     display: flex;
     gap: 40px;
@@ -62,10 +58,14 @@
 
 .contacts-link {
     display: block;
-    padding: 24px 0;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    padding: 0;
+}
 }
 
 .nav-link {
@@ -107,11 +107,22 @@
 }
 
 @media screen and (min-width: 1158px) {
+    .logo {
+        margin-right: 76px;
+    }
+    .header-container {
+        gap: 0;
+    }
     .contacts-list {
         flex-direction: row;
         gap: 40px;
     }
     .contacts-link {
         font-size: 16px;
+    }
+    .contacts-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 }

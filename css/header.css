@@ -6,6 +6,16 @@
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
+.menu-open-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -106,6 +116,9 @@
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 120px;
+  }
+  .menu-open-btn {
+    display: none;
   }
 }
 

@@ -22,10 +22,9 @@
 }
 
 .modal {
-  min-height: 584px;
-  width: calc(100% - 32px);
-  max-width: 408px;
   position: relative;
+  width: 288px;
+  min-height: 623px;
   padding: 72px 16px 24px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -248,6 +247,8 @@
 
 @media screen and (min-width: 768px) {
   .modal {
+    width: 408px;
+    min-height: 584px;
     padding: 72px 24px 24px;
   }
 }

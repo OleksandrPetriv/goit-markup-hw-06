@@ -11,6 +11,15 @@
     visibility 250ms ease-in-out;
 }
 
+.menu-open-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -111,7 +120,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .mobile-menu {
+  .menu-open-btn {
     display: none;
   }
 }

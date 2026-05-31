@@ -1,51 +1,115 @@
 .footer {
   display: flex;
-    background-color: #2e2f42;
-    padding: 100px 0;
-     max-width: 1440px;
-     justify-content: center;
-     margin: 0 auto;
+  background-color: #2e2f42;
+  padding: 100px 0;
+  margin: 0 auto;
+  min-width: 320px;
 }
-.footer-text{
-    max-width: 264px;
-    color: #f4f4fd;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+
+.web {
+    color: #4d5ae5;
+}
+
+.studio {
+    color: #F4F4FD;
+}
+
+ .logo-footer {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #2E2F42;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
 
 }
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-left: 16px;
+
+}
+
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.footer {
+  display: flex;
+  background-color: #2e2f42;
+  padding: 100px 0;
+  max-width: 1440px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+ .logo-footer {
+  text-decoration: none;
+  color: #2E2F42;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  padding-left: 15px;
+  margin-right: 76px;
+}
+
 
 .social {
     margin-left: 120px;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
 }
 
-.web {
-    color: #4d5ae5;}
 
- .logo-footer {
-    text-decoration: none;
-    color: #2E2F42;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    padding-left: 15px;
-    margin-right: 76px;
-    }
-.studio {
-    color: #F4F4FD;
-}
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -176,4 +240,5 @@
 
 .btn-sub {
   fill: #ffffff;
+}
 }

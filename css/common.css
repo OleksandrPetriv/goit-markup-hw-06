@@ -1,3 +1,11 @@
+.container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
@@ -27,13 +35,6 @@ p {
   margin: 0;
 }
 
-.container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -59,13 +60,18 @@ h6 {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
-.icon-wrapper {
-  height: 112px;
-  border: 1px solid #8e8f99;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
+@media screen and (min-width: 768px) {
+  .container {
+  max-width: 768px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+  max-width: 1158px;
+  padding: 0 15px;
+}
 }

@@ -1,5 +1,4 @@
 .container {
-  width: 100%;
   max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
@@ -10,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #fff;
+  margin: 0;
 }
 
 a {
@@ -27,7 +27,7 @@ a:active {
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 p {
@@ -53,8 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 img {
@@ -71,6 +70,5 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
   }
 }
